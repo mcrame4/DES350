@@ -9,7 +9,7 @@
 		<strong>Mary Jane / DES 350</strong><br>
 	<a href="calculator_css.html" target="_self">CSS Calculator</a><br>
 	<a href="moodboard.jpg"
-	  target="_self">moodboard</a>
+	  target="_self">moodboard</a><br>
 	<a href="sketch-04.jpg"
 	   target="_self">calc sketch</a>
 	
