@@ -11,7 +11,7 @@
 	<a href="moodboard.jpg"
 	  target="_self">moodboard</a>
 	<a href="sketch-04.jpg"
-	   target="_self">moodboard</a>
+	   target="_self">calc sketch</a>
 	
 	
 </body>
