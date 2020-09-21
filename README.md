@@ -11,7 +11,9 @@
 	<a href="moodboard.jpg"
 	  target="_self">moodboard</a><br>
 	<a href="sketch-04.jpg"
-	   target="_self">calc sketch</a>
+	   target="_self">calc sketch</a><br>
+	<a href="Dieter Rams"
+	   target="Dieter Rams</a><br>
 	
 	
 </body>
