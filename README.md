@@ -12,8 +12,8 @@
 	  target="_self">moodboard</a><br>
 	<a href="sketch-04.jpg"
 	   target="_self">calc sketch</a><br>
-	<a href="Dieter Rams"
-	   target="Dieter Rams">Dieter Rams</a><br>
+	<a href="dieter_rams.html"
+	   target="dieter_rams.html">Dieter Rams</a><br>
 	
 	
 </body>
