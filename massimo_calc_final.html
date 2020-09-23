@@ -1,0 +1,148 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<style>
+		body{
+			background-color: black;
+			font-family: Helvetica, Arial, Sans-serif;
+
+			}
+		#display {
+			outline: 0;
+			border: none;
+			background-color: black;
+			color: white;
+			-webkit-text-fill-color: white; /*added this to override a safari browser bug*/
+			border-radius: 5px;
+			width: 75%;
+			height: 300px;
+			float: left;
+			font-size: 20px;
+			padding: 0px;
+			padding-left: 60px;
+			margin: 0px 0px 20px 0px;
+			font-size: 200px;
+			font-weight: bold;
+			position: fixed;
+		}
+		
+
+		
+		.navbar {
+			overflow: hidden;
+			background-color: black;
+			color: white;
+			position: fixed;
+			bottom:-200px;
+			left: 25%;
+			height: 800px;
+			transform: rotate(270deg);  /*to achieve alignment of elements, I rotated this holding div*/
+			width: 300px;
+		}
+		
+		.operator {
+			font-size: 60px;
+			font-weight: bold;
+			outline: 0;
+			border: none;
+			background-color: black;
+			color: white;
+			display: block;
+			padding: 0px;
+		}
+		.operator_holder {
+			width: 100px;
+			position: fixed;
+			right:80px;
+			top: 40px;
+			bottom: 0px;
+			text-align:right; 
+			vertical-align:middle;
+		}
+		.operator:hover{
+			color: #e01010;
+		}
+		
+
+		/*it will be easier to style all numbers with a single div, unless you want one of them to have a different color*/	
+		
+		.number {
+			font-size: 70px;
+			font-weight: bold;
+			background-color: black;
+			color: white;
+			outline: 0;
+			border: none;
+			display: block;
+			padding-bottom: 0px;
+		}
+		
+		.number:hover {
+			
+			color: #e01010;
+		}
+		
+		
+
+		
+	</style>
+<title>Untitled Document</title>
+</head>
+
+	
+	<body>
+	<body style="background-color:black">
+		
+	</body>
+		
+	<form name="calculator">
+	<div id="myCalculator">
+		
+		<div id="top_display">
+		
+			<input type="text" names="display" id="display" disabled>
+		</div>
+		</div>
+		<div class="navbar">
+			<input type="button" class="number" value="one" onclick="calculator.display.value +='1'">
+			<input type="button" class="number" value="two" onclick="calculator.display.value +='2'">
+			<input type="button" class="number" value="three" onclick="calculator.display.value +='3'">
+			<input type="button" class="number" value="four" onclick="calculator.display.value +='4'">
+			<input type="button" class="number" value="five" onclick="calculator.display.value +='5'">
+			<input type="button" class="number" value="six" onclick="calculator.display.value +='6'">
+			<input type="button" class="number" value="seven" onclick="calculator.display.value +='7'">
+			<input type="button" class="number" value="eight" onclick="calculator.display.value +='8'">
+			<input type="button" class="number" value="nine" onclick="calculator.display.value +='9'"><input type="button" class="number" value="zero" onclick="calculator.display.value +='0'">
+			
+			
+		</div>
+	
+		<div class="operator_holder">
+
+	
+	<input type="button" class="operator" name="add" value="+"onclick="calculator.display.value += '+'">
+			<br>
+	<input type="button" class="operator" name="add" value="-"onclick="calculator.display.value += '-'">
+			<br>
+	<input type="button" class="operator" name="add" value="*"onclick="calculator.display.value += '*'">
+			<br>
+	<input type="button" class="operator" name="add" value="/"onclick="calculator.display.value += '/'">
+			<br>
+	<input type="button" class="operator" value="." onclick="calculator.display.value +='.'">
+			<br>
+	<input type="button" class="operator" name="equals" value="="onclick="calculator.display.value = eval(calculator.display.value)">
+			
+	<input type="button" class="operator" value="C" onClick="calculator.display.value =''">
+	
+	
+ </div>
+
+		
+											
+  
+	
+
+
+</body>
+</html>
