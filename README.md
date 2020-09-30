@@ -16,6 +16,8 @@
 	   target="dieter_rams.html">dieter rams</a><br>
 	<a href="massimo_calc_final.html"
 	   target="massimo_calc_final.html">calc redesign</a><br>
+	<a href="poster.pdf"
+	   target="poster.pdf">poster</a><br>
 
 	
 	
