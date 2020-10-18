@@ -17,7 +17,11 @@
 	<a href="massimo_calc_final.html"
 	   target="massimo_calc_final.html">calc redesign</a><br>
 	<a href="poster.pdf"
+	   target="poster.pdf">poster sketch</a><br>
+	<a href="poster.html"
 	   target="poster.pdf">poster</a><br>
+	<a href="poster_withchange.html"
+	   target="poster.pdf">poster with change</a><br>
 
 	
 	
