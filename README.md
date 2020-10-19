@@ -22,7 +22,7 @@
 	   target="poster.pdf">poster</a><br>
 	<a href="poster_withchange.html"
 	   target="poster.pdf">poster with change</a><br>
-	<a href="selfie.html"
+	<a href="selfie.pdf"
 	   target="selfie.pdf">html self portrait</a><br>
 
 	
