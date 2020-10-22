@@ -61,7 +61,13 @@ h1{
  
 }
 
-a:link {
+a:link, {
+	text-decoration: none;
+	color: white;
+	outline: none;
+}
+
+a:visited {
 	text-decoration: none;
 	color: white;
 	outline: none;
