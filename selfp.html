@@ -12,7 +12,7 @@
 			top: 50%;
 			left: 50%;
 		  transform: translate(-50%, -50%);
-			border: 2px solid black;
+			
 		}
 		
 		
@@ -26,8 +26,24 @@
 			width: 62.503px;
 			height: 56.236px;
 			left: 287.269px;
-			top: 43.934px;	
+			top: 43px;	
 			border-radius: 14.102px;
+			animation-name: hair;
+		animation-duration: 5s;
+		animation-delay: 1s;
+		animation-iteration-count: infinite;
+		}
+			@-webkit-keyframes hair {
+			0% {top: 43px;
+					}
+			25% {top: 100px;
+					 }
+			50%  { top: 125px;
+					} 
+			75%  {top: 100px;
+					 }
+			100% {top: 43px;
+					 }
 		}
 		
 		.hairtop1{
@@ -60,6 +76,22 @@
 			top: 96.035px;
 			left: 283.134px;
 			border-radius: 14.102px;
+			animation-name: hair;
+		animation-duration: 3s;
+		animation-delay: 1s;
+		animation-iteration-count: infinite;
+		}
+			@-webkit-keyframes hair {
+			0% {left: 265px;
+					}
+			25% {left: 293px;
+					 }
+			50%  { left: 295px;
+					} 
+			75%  {left: 293px;
+					 }
+			100% {left: 265px;
+					 }
 		}
 		.hairmid3{
 			height: 154.03px;
@@ -78,9 +110,25 @@
 		.hairlow2{
 			height: 90.97px;
   			width: 62.503px;
-			top: 152.271px;
-			left: 202.915px;
+			top: 152px;
+			left: 202px;
 			border-radius: 14.102px;
+		animation-name: hairside2;
+		animation-duration: 6s;
+		animation-delay: 1s;
+		animation-iteration-count: infinite;
+		}
+			@-webkit-keyframes hairside2 {
+			0% {top: 152px;
+					}
+			25% {top: 152px;
+					 }
+			50%  { top: 124px;
+					} 
+			75%  {top: 200px;
+					 }
+			100% {top: 152px;
+					 }
 		}
 		.hairlow3{
 			height: 172.016px;
@@ -88,6 +136,22 @@
 			top: 124.98px;
 			left: 448.534px;
 			border-radius: 14.102px;
+		animation-name: hairside;
+		animation-duration: 6s;
+		animation-delay: 1s;
+		animation-iteration-count: infinite;
+		}
+			@-webkit-keyframes hairside {
+			0% {top: 124px;
+					}
+			25% {top: 124px;
+					 }
+			50%  { top: 124px;
+					} 
+			75%  {top: 500px;
+					 }
+			100% {top: 124px;
+					 }
 		}
 		.hairside1{
 			height: 166.04px;
@@ -121,6 +185,10 @@
 			left: 193.733px;
      		 border-radius: 50%;
 			border: 5px solid #333333;
+			animation-name: glass1;
+			animation-duration: 5s;
+			animation-delay: 1s;
+			animation-iteration-count: infinite;
 		}
 		.glassesl2{
 			 width: 112.206px;
@@ -129,6 +197,10 @@
 			left: 220.733px;
      		 border-radius: 50%;
 			border: 5px solid #333333;
+			animation-name: glass2;
+			animation-duration: 2s;
+			animation-delay: 2s;
+			animation-iteration-count: infinite;
 			
 		}
 		.glassesl3{
@@ -138,7 +210,9 @@
 			left: 199.733px;
      		 border-radius: 50%;
 			border: 5px solid #333333;
-			
+				animation-name: glass3;
+			animation-duration: 5s;
+			animation-iteration-count: infinite;
 			
 			
 		}
@@ -150,7 +224,14 @@
 			left: 351.733px;
      		 border-radius: 50%;
 			border: 5px solid #333333;
-			
+				animation-name: glass1;
+			animation-duration: 5s;
+			animation-delay: 1s;
+			animation-iteration-count: infinite;
+ 		}
+		@-webkit-keyframes glass1 {
+		from { transform: rotate(0deg) translateX(3px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(3px) rotate(-360deg); }
 		}
 		.glassesr2{
 			 width: 147.206px;
@@ -159,18 +240,30 @@
 			left: 367.733px;
      		 border-radius: 50%;
 			border: 5px solid #333333;
-			
+				animation-name: glass2;
+			animation-duration: 2s;
+			animation-delay: 2s;
+			animation-iteration-count: infinite;
+ 		}
+		@-webkit-keyframes glass2 {
+		from { transform: rotate(0deg) translateX(1px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(1px) rotate(-360deg); }
 		}
 		.glassesr3{
 			 width: 125.206px;
      		 height: 121.569px;
-			top: 274.135px;
-			left: 354.733px;
+			top: 274px;
+			left: 354px;
      		 border-radius: 50%;
 			border: 5px solid #333333;
-			
+			animation-name: glass3;
+			animation-duration: 5s;
+			animation-iteration-count: infinite;
+ 		}
+		@-webkit-keyframes glass3 {
+		from { transform: rotate(0deg) translateX(3px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(3px) rotate(-360deg); }
 		}
-		
 		
 		
 		.eyes div{
@@ -182,17 +275,17 @@
 		}
 		
 		.eyeltop1 {
-			height: 18.917px;
-  			width: 28.043px;
-			top: 250.931px;
-			left: 289.736px;
+			height: 18px;
+  			width: 28px;
+			top: 250px;
+			left: 289px;
 			transform: rotate(192.06deg);
 		}
 		.eyeltop2 {
-			height: 14.491px;
-  			width: 78.967px;
-			top: 255.94px;
-			left: 230.007px;
+			height: 14px;
+  			width: 78px;
+			top: 255px;
+			left: 230px;
 			transform: rotate(174.47deg);
 		}
 		.eyeltop3 {
@@ -205,17 +298,55 @@
 		.eyelbot1 {
 			height: 25.207px;
   			width: 58.777px;
-			top: 284.997px;
-			left: 250.831px;
+			top: 284px;
+			left: 250px;
 			transform: rotate(186.47deg);
+			animation-name: eyelup;
+			animation-duration: 7s;
+			animation-delay: 1s;
+			animation-iteration-count: infinite;
+ 		}
+		@-webkit-keyframes eyelup {
+			0% {top: 284px;
+					}
+			25% {top: 285px;
+					 }
+			50%  { top: 286px;
+					} 
+			75%  {top: 285px;
+					 }
+			100% {top: 284px;
+					 }
 		}
+		
 		.eyelbot2 {
 			height: 22.207px;
   			width: 58.777px;
-			top: 290.786px;
-			left: 254.139px;
+			top: 290px;
+			left: 254px;
 			transform: rotate(186.47deg);
+			animation-name: eyeldwn;
+			animation-duration: 7s;
+			animation-delay: 1s;
+			animation-iteration-count: infinite;
 		}
+		
+		@-webkit-keyframes eyeldwn {
+			0% {top: 290px;
+					}
+			25% {top: 293px;
+					 }
+			50%  { top: 295px;
+					} 
+			75%  {top: 293px;
+					 }
+			100% {top: 290px;
+					 }
+		}
+		
+		
+		
+		
 		.eyelbot3 {
 			height: 14.706px;
   			width: 36.674px;
@@ -267,7 +398,7 @@
 			top: 291px;
 			left: 388px;
 			transform: rotate(186.47deg);
-			animation-name: eyert;
+			animation-name: eyerup;
 			animation-duration: 3s;
 			animation-delay: 1s;
 			animation-iteration-count: infinite;
@@ -280,11 +411,39 @@
 			top: 298px;
 			left: 383px;
 			transform: rotate(186.47deg);
-			animation-name: eyerb;
+			animation-name: eyerdwn;
 			animation-duration: 3s;
 		animation-delay: 1s;
 		animation-iteration-count: infinite;
 		}
+			@-webkit-keyframes eyerup {
+			0% {top: 291px;
+					}
+			25% {top: 293px;
+					 }
+			50%  { top: 295px;
+					} 
+			75%  {top: 293px;
+					 }
+			100% {top: 291px;
+					 }
+		}
+			
+				@-webkit-keyframes eyerdwn {
+			0% {top: 291px;
+					}
+			25% {top: 289px;
+					 }
+			50%  { top: 287px;
+					} 
+			75%  {top: 289px;
+					 }
+			100% {top: 291px;
+					 }
+		}
+			
+	
+		
 		
 		
 			
@@ -299,19 +458,7 @@
 			transform: rotate(196.47deg);
 		}
 		
-		@-webkit-keyframes move {
-			0% {top: 10px;
-					left: 10px;}
-			25% {top: 10px;
-					left: 10px; }
-			50%  { top: 10px;
-					left: 10px;} 
-			75%  {top: 10px;
-					left: 10px; }
-			100% {top: 10px;
-					left: 10px; }
-			
-		}
+	
 		
 		.nose div{
 			background-color: #333366;
@@ -464,6 +611,22 @@
  			position: absolute;
 			opacity: 37%;
 			border-radius: 12px;
+		animation-name: high2;
+		animation-duration: 3s;
+		animation-delay: 1s;
+		animation-iteration-count: infinite;
+		}
+			@-webkit-keyframes high2 {
+			0% {left: 445px;
+					}
+			25% {left: 460px;
+					 }
+			50%  { left: 4px;
+					} 
+			75%  {left: 460px;
+					 }
+			100% {left: 445px;
+					 }
 		}
 		.highlight2{
 			height: 70px;
@@ -497,6 +660,22 @@
  			position: absolute;
 			opacity: 37%;
 			border-radius: 12px;
+		animation-name: high;
+		animation-duration: 3s;
+		animation-delay: 1s;
+		animation-iteration-count: infinite;
+		}
+			@-webkit-keyframes high {
+			0% {left: 392px;
+					}
+			25% {left: 400px;
+					 }
+			50%  { left: 400px;
+					} 
+			75%  {left: 400px;
+					 }
+			100% {left: 392px;
+					 }
 		}
 		
 	
@@ -521,8 +700,24 @@
  			position: absolute;
 			opacity: 11%;
 			border-radius: 8px;
-			
+				animation-name: high4;
+		animation-duration: 7s;
+		animation-delay: 1s;
+		animation-iteration-count: infinite;
 		}
+			@-webkit-keyframes high4 {
+			0% {left: 336px;
+					}
+			25% {left: 336px;
+					 }
+			50%  { left: 600px;
+					} 
+			75%  {left: 336px;
+					 }
+			100% {left: 336px;
+					 }
+		}
+		
 		.shadowlow3{
 				height: 23px;
   			width: 87px;
@@ -571,6 +766,22 @@
  			position: absolute;
 			opacity: 11%;
 			border-radius: 14px;
+			animation-name: shadow;
+		animation-duration: 3s;
+		animation-delay: 1s;
+		animation-iteration-count: infinite;
+		}
+			@-webkit-keyframes shadow {
+			0% {top: 265px;
+					}
+			25% {top: 293px;
+					 }
+			50%  { top: 295px;
+					} 
+			75%  {top: 293px;
+					 }
+			100% {top: 265px;
+					 }
 		}
 		.shadowmid2{
 				height: 188px;
@@ -642,30 +853,7 @@
 		}
 	
 		
-		@-webkit-keyframes eyert {
-			0% {top: 291px;
-					}
-			25% {top: 293px;
-					 }
-			50%  { top: 295px;
-					} 
-			75%  {top: 293px;
-					 }
-			100% {top: 291px;
-					 }
-			
-			@-webkit-keyframes eyerb {
-			0% {left: 383px;
-					}
-			25% {left: 385px;
-					 }
-			50%  { left: 387px;
-					} 
-			75%  {left: 385px;
-					 }
-			100% {left: 383px;
-					 }
-		
+	
 	
 	
 	
