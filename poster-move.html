@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Animated Poster</title>
+	
+	<style>
+		body{
+			background-color: whitesmoke;
+			margin: 0px;
+			padding: 0px;
+			
+		}
+		
+		.card {
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			width: 40%;
+			height: 90vh;
+			transform: translate(-50%, -50%);
+			background: url("poster-move2.png") no-repeat center;
+			background-size: contain;
+		}
+		
+		.card:hover {
+			background: url("poster-move2.gif") no-repeat center;
+			background-size: contain;
+		}
+		
+		#preload {
+			background: url("poster-move2.gif") no-repeat -9999px -9999px;
+		}
+	
+	
+	
+	
+	
+	</style>
+	
+	
+	
+</head>
+
+<body>
+	<div id="preload"></div>
+	<div class="card"></div>
+</body>
+</html>
