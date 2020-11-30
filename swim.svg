@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 110.41 110.41" style="enable-background:new 0 0 110.41 110.41;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#1336A5;}
+	.st1{fill:#FFFFFF;}
+	.st2{display:none;}
+	.st3{display:inline;}
+</style>
+<g id="fishing">
+	<g>
+		<circle class="st0" cx="55.02" cy="55.67" r="46.55"/>
+		<circle class="st1" cx="54.92" cy="65.76" r="7.7"/>
+		<circle class="st1" cx="77.48" cy="54.48" r="7.7"/>
+		<circle class="st1" cx="32.36" cy="54.48" r="7.7"/>
+	</g>
+</g>
+<g id="boat" class="st2">
+	<g class="st3">
+		<circle class="st0" cx="55.36" cy="55.65" r="46.55"/>
+		<circle class="st1" cx="55.54" cy="55.4" r="7.7"/>
+		<circle class="st1" cx="76.97" cy="55.4" r="7.7"/>
+		<circle class="st1" cx="33.54" cy="55.4" r="7.7"/>
+	</g>
+</g>
+<g id="camping" class="st2">
+	<g class="st3">
+		<circle class="st0" cx="55.02" cy="55.68" r="46.55"/>
+		<circle class="st1" cx="67.61" cy="63.89" r="7.7"/>
+		<circle class="st1" cx="42.23" cy="63.89" r="7.7"/>
+		<circle class="st1" cx="54.92" cy="40.48" r="7.7"/>
+	</g>
+</g>
+<g id="hiking" class="st2">
+	<g class="st3">
+		<circle class="st0" cx="54.73" cy="54.71" r="46.55"/>
+		<circle class="st1" cx="54.63" cy="54.74" r="7.7"/>
+		<circle class="st1" cx="69.86" cy="39.51" r="7.7"/>
+		<circle class="st1" cx="39.12" cy="70.25" r="7.7"/>
+	</g>
+</g>
+<g id="swimming" class="st2">
+	<g class="st3">
+		<circle class="st0" cx="55.35" cy="54.91" r="46.55"/>
+		<circle class="st1" cx="71.89" cy="77.78" r="7.7"/>
+		<circle class="st1" cx="32.97" cy="41.68" r="7.7"/>
+		<circle class="st1" cx="60.89" cy="49.3" r="7.7"/>
+	</g>
+</g>
+</svg>
