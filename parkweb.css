@@ -54,7 +54,7 @@ h1{
 }
 
 .visit{
-	margin: 400px 0 0 33%;
+	margin: 300px 0 0 33%;
 	position: relative;
 	z-index: 1;
 	color: #234099;
@@ -97,12 +97,13 @@ p{
 	font-family:"Helvetica Neue", Helvetica, Arial, "sans-serif";
 	font-size: 1.5vw;
 	font-weight: 200;
+	padding-top: 1.5vw;
 }
 
 .text{
 	position: relative;
 	margin: 90vw 0 0 33%;
-	width: 40%
+	width: 35%
 }
 
 h2{
