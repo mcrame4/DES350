@@ -48,60 +48,38 @@ h1{
 .aboutp {
 	float: left;
 	margin: 5% 0px 0px 63.55%;
-	color: white;
+	color: black;
 	
 }
 
-.plist  {
+.links  {
 	 text-decoration: none;
 	float: left;
 	margin: 5% 0px 0px 6.5%;
-	color: white;
 	outline: none;
  
 }
-
-a:link, {
+a:link{
 	text-decoration: none;
-	color: white;
+	color: black;
 	outline: none;
 }
 
-a:visited {
+a:visited{
 	text-decoration: none;
-	color: white;
+	color: black;
 	outline: none;
 }
 
-
-.aboutsq{
-	position: absolute;
-	margin: 180px 0px 0px 63.55%;
-	width: 160px;
-  	height: 3px;
-  	background: #cc9900;
-  	transition: height 2s;
-	z-index: -1;
+a:hover{
+	text-decoration: none;
+	color: black;
+	outline: none;
+	color: #AEAEAE
 }
 
-.aboutsq:hover{
-	
-	height: 1000px;
-}
 
-.projectsq{
-	position: absolute;
-	margin: 180px 0px 0px 79%;
-	width: 250px;
- 	height: 3px;
-  	background: #045648;
- 	transition: height 3s;
-	z-index: -1;
-}
 
-.projectsq:hover {
-	height: 1000px;
-	
-}
+
 		
 	</style>
