@@ -53,10 +53,10 @@ h1{
 }
 
 .links  {
-	 text-decoration: none;
 	float: left;
+	text-decoration: none;
+	
 	margin: 5% 0px 0px 6.5%;
-	outline: none;
  
 }
 a:link{
